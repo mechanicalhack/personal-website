@@ -1,8 +1,16 @@
-.header {
-    text-align: center;
-    background-color: black;
-}
 
 .header-text {
+    color: #45BCDC;
+    margin-left: 1rem;
+}
+.header-last-name-text {
+    color: white;
+}
+
+.welcome-content {
+    text-align: center;
+}
+
+.welcome-text {
     color: #45BCDC;
 }
