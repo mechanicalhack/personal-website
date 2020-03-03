@@ -14,3 +14,32 @@
 .welcome-text {
     color: #45BCDC;
 }
+
+.link-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    max-width: 60rem;
+    min-width: 45rem;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    border: solid 1px black;
+    background-color: #45BCDC;
+    color: white;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px white;
+}
+
+a:hover {
+    color: white;
+    background-color: gray;
+}
+
+a:active {
+    color: lightgreen;
+}

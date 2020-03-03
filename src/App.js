@@ -1,17 +1,20 @@
 import React from 'react';
 import './App.css';
 import Home from "./Components/Home.jsx";
-import AboutMe from "./Components/AboutMe.jsx";
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import Aboutme from "./Components/Aboutme.jsx";
+import Experience from "./Components/Experience";
+import Education from "./Components/Education";
+import Contactme from "./Components/Contactme";
 
 function App() {
     return (
-        <Router>
-            <Switch>
-                <Route exact path="/" component={Home}/>
-                <Route exact path="aboutme" component={AboutMe}/>
-            </Switch>
-        </Router>
+        <>
+            <Home/>
+            <Aboutme/>
+            <Experience/>
+            <Education/>
+            <Contactme/>
+        </>
     );
 }
 

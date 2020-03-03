@@ -1,9 +1,10 @@
 import React from "react";
+import '../Style/Education.css';
 
 function Education() {
     return (
         <>
-            <h2>Education</h2>
+            <h2 className="title-text" id="education">Education</h2>
         </>
     )
 }
