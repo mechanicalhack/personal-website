@@ -1,18 +1,9 @@
 
-.header-text {
-    color: #45BCDC;
-    margin-left: 1rem;
-}
-.header-last-name-text {
-    color: white;
-}
-
-.welcome-content {
+.header-container{
+    background-color: white;
+    width: 100%;
+    position: fixed;
     text-align: center;
-}
-
-.welcome-text {
-    color: #45BCDC;
 }
 
 .link-container{
@@ -29,10 +20,10 @@ a {
     border: solid 1px black;
     background-color: #45BCDC;
     color: white;
-    margin: 2rem;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 4px 4px 8px white;
+    margin: 1rem 0 1rem 0;
 }
 
 a:hover {
